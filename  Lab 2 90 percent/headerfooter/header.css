@@ -1,0 +1,42 @@
+/* CSS for header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+    padding: 10px 20px; /* Adjust padding as needed */
+}
+
+.header .logo {
+    font-size: 20px; /* Adjust the font size */
+    font-family: 'Sriracha', cursive;
+    color: #ffffff;
+    text-decoration: none;
+    margin-right: 20px; /* Adjust margin for better spacing */
+}
+
+.nav-items {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    background-color: #000000;
+}
+
+.nav-items a {
+    text-decoration: none;
+    font-family: 'Sriracha';
+    color: #ffffff;
+    padding: 10px 15px; /* Adjust padding for better spacing */
+}
+
+.logout {
+    margin-left: 90px; /* Push the logout to the right */
+}
+
+.logout a {
+    text-decoration: none;
+    font-family: 'Sriracha';
+    color: #ffffff;
+    padding: 10px 15px; /* Adjust padding for better spacing */
+}

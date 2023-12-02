@@ -1,0 +1,36 @@
+/* CSS for footer */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8; /* Add a light background color */
+}
+
+.footer {
+    background-color: #333; /* Dark background color for the footer */
+    color: #fff; /* White text color */
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.copy {
+    font-size: 18px; /* Increase font size for copyright text */
+}
+
+.bottom-links {
+    margin-top: 10px;
+}
+
+.links span {
+    display: inline-block;
+    margin: 0 10px;
+    color: #ddd; /* Light gray color for links */
+    cursor: pointer;
+}
+
+.links span:hover {
+    color: #fff; /* White color on hover */
+}
